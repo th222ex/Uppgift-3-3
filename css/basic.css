@@ -1,1 +1,159 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+/*Fråga emil om mellanrum mellan dashed line och menu*/
+
+h1 {
+font-family:"Times New Roman", Times, serif;
+font-size: 28px;
+font-style: normal;
+font-color:#937066;
+font-weight: normal;
+}
+
+h2 {
+font-family:"Times New Roman", Times, serif;
+font size: 16px;
+font-weight: normal;
+}
+
+p {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#797066;
+line-height: 20px;
+}
+
+a {
+color:#51473D;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px; 
+text-align: left;
+}
+
+#container {
+overflow: auto;
+width: 600px;
+margin: auto;
+background-color:#51473D;
+}
+
+#topbar {
+background-image:url(pics/coffey.jpg);
+text-align: right;
+margin-top: 4px;
+height: 218px;
+margin-bottom: -10px;
+background-repeat:no-repeat;
+background-position: bottom;
+background-color: #51473D;
+font-size: 10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-style:oblique;
+padding-top: 0;
+color:#EAE7D2;
+}
+
+#menu li {
+display: inline;
+list-style: none;
+margin-left: 2px;
+}
+
+#menu ul a{
+background-color:#797066;
+display: block;
+text-decoration: none;
+list-style: none;
+display: inline;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 20px;
+text-transform: capitalize;
+margin-left: -25px;
+margin-right: 20px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+padding-right: 30px;
+padding-bottom: 7px;
+padding-top: 5px;
+color:#EAE7D2;
+padding-top: 8px;
+}
+
+#menu a {
+display: none;
+
+}
+
+#menu ul {
+margin-bottom: 0;
+margin-top:20px;
+}
+
+.img info{
+float: left;
+}
+ 
+#content {
+margin-top: 4px;
+overflow: auto;
+background-color: #EAE7D2; 
+}
+
+#maincontent img {
+float: left;
+padding-left: 3px;
+padding-right: 10px;
+padding-top: 5px;
+}
+
+#maincontent {
+background-color: #EAE7D2;
+float: left;
+width: 60%;
+padding-left: 10px;
+border-right: 1px dashed #797066;
+color:#797066;
+}
+
+#menu li.active a {
+background-color: #EAE7D2;
+padding-top: 5px;
+color:#797066;
+padding-right: 30px;
+padding-bottom: 20px;
+}
+
+#subcontent {
+background-color: #EAE7D2;
+float: right;
+width: 35%;
+font-size: 12px;
+font-variant:normal;
+color:#797066;
+padding-top: 20px;
+padding-right: 4px;
+}
+
+#subcontent p {
+font-size:9px;
+}
+
+#subcontent ul {
+list-style: none;
+padding-left: 0;
+}
+
+#subcontent h1 {
+font-size:18px;
+}
+
+#bottomcontent {
+background-color: #EAE7D2;
+font-style:italic;
+font-size:10px;
+clear: both;
+color: #797066;
+margin-bottom: 15px;
+padding-left: 10px; 
+word-spacing: 3px;
+}
